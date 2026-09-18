@@ -9,7 +9,7 @@ import starlightThemeExquisitus from 'starlight-theme-exquisitus';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://fritech33.github.io',
-    base: '/AZG-Starlight',
+    base: '/AZG-Wiki_Starlight',
   	integrations: [
 		starlight({
 			title: 'AZG-Wiki',
