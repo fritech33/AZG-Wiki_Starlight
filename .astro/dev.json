@@ -1,14 +1,14 @@
 {
-	"pid": 49906,
+	"pid": 50080,
 	"port": 4321,
 	"url": "http://localhost:4321",
 	"urls": {
 		"local": [
-			"http://localhost:4321/AZG-Wiki_Starlight"
+			"http://localhost:4321/"
 		],
 		"network": [],
 		"networkInterfaceNames": []
 	},
 	"background": false,
-	"startedAt": "2026-09-18T23:19:04.730Z"
+	"startedAt": "2026-09-18T23:21:52.186Z"
 }
