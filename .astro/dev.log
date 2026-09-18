@@ -1,0 +1,32 @@
+00:40:52 [vite] connected.
+00:40:52 [types] Generated 0ms
+00:40:53 [vite] connected.
+00:40:53 [content] Syncing content
+00:40:53 [content] Synced content
+00:40:53 [vite] Re-optimizing dependencies because vite config has changed
+ astro  v7.3.3 ready in 1253 ms
+┃ Local    http://localhost:4321/AZG-Starlight
+┃ Network  use --host to expose
+00:40:53 watching for file changes...
+00:40:53 Configuration file updated. Restarting...
+00:40:53 [vite] connected.
+00:40:53 [ERROR] Failed to create the dev server app: transport was disconnected, cannot call "fetchModule"
+00:40:53 [vite] connected.
+00:40:53 [vite] server restarted.
+00:41:06 [WARN] [content] The collection "i18n" does not exist or is empty. Please check your content config file for errors.
+00:41:07 [WARN] [router] A `getStaticPaths()` route pattern was matched, but no matching static path was found for requested path `/favicon.ico`.
+
+Possible dynamic routes being matched: node_modules/@astrojs/starlight/dist/routes/static/index.astro.
+00:41:07 [WARN] [content] Entry docs → 404 was not found.
+00:41:09 Configuration file updated. Restarting...
+00:41:09 [vite] connected.
+00:41:09 [vite] connected.
+00:41:09 [vite] server restarted.
+00:41:14 [WARN] [content] The collection "i18n" does not exist or is empty. Please check your content config file for errors.
+00:41:14 [200] / 164ms
+00:41:14 [200] / 20ms
+00:41:16 [200] / 21ms
+00:41:51 [200] / 13ms
+00:41:52 [200] / 21ms
+00:41:53 [200] / 19ms
+00:41:54 [200] / 20ms
