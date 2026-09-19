@@ -17,7 +17,7 @@
     "@tabler/icons": "^3.46.0",
     "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/vite": "^4.3.3",
-    "astro": "^7.2.10",
+    "astro": "^7.3.3",
     "sharp": "^0.35.3",
     "starlight-theme-exquisitus": "^1.2.0",
     "starlight-theme-nova": "^0.12.3",
@@ -27,6 +27,7 @@
     "tw-animate-css": "^1.4.0"
   },
   "allowScripts": {
-    "esbuild": true
+    "esbuild": true,
+    "fsevents@2.3.3": true
   }
 }
