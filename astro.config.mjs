@@ -1,10 +1,20 @@
 import tailwindcss from "@tailwindcss/vite";
+
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+
 //import starlightThemeNova from 'starlight-theme-nova'
 import starlightThemeExquisitus from 'starlight-theme-exquisitus';
 
+import { defineCollection } from 'astro:content';
+import { docsLoader, i18nLoader } from '@astrojs/starlight/loaders';
+import { docsSchema, i18nSchema } from '@astrojs/starlight/schema';
+
+export const collections = {
+  docs: defineCollection({ loader: docsLoader(), schema: docsSchema() }),
+  i18n: defineCollection({ loader: i18nLoader(), schema: i18nSchema() }),
+};
 
 // https://astro.build/config
 export default defineConfig({
