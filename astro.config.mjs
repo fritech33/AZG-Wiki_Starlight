@@ -33,6 +33,7 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'details' } }],
 				},
 			],
+			lastUpdated: true,
 			plugins: [
 			    //starlightThemeNova(), 
 			    starlightThemeExquisitus(),
