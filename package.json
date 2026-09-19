@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.2",
+    "@astrojs/starlight-tailwind": "^5.0.0",
     "@starwind-ui/astro": "^1.2.1",
     "@starwind-ui/react": "^1.2.1",
     "@tabler/icons": "^3.46.0",

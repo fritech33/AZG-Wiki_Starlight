@@ -34,6 +34,9 @@ export default defineConfig({
 				},
 			],
 			lastUpdated: true,
+			customCss: [
+				'./src/styles/global.css',
+			],
 			plugins: [
 			    //starlightThemeNova(), 
 			    starlightThemeExquisitus(),
