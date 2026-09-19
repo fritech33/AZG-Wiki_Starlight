@@ -13,6 +13,7 @@ export default defineConfig({
   	integrations: [
 		starlight({
 			title: 'AZG-Wiki',
+			defaultLocale: 'root',
 			locales: {
 				root: {
 					label: 'Deutsch',
