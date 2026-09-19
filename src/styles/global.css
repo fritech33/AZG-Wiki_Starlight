@@ -3,3 +3,15 @@
 @import '@astrojs/starlight-tailwind';
 @import 'tailwindcss/theme.css' layer(theme);
 @import 'tailwindcss/utilities.css' layer(utilities);
+
+.social-icons span {
+	position: relative !important;
+	width: auto !important;
+    height: auto !important;
+    clip: auto !important;
+    clip-path: none !important;
+}
+
+.social-icons svg {
+	display: none !important;
+}
