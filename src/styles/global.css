@@ -18,5 +18,17 @@
 }
 
 site-search dialog {
-    zoom: 2;
+	zoom: 1.2;
+}
+
+@media (min-width: 60em) {
+	site-search dialog {
+		zoom: 1.6;
+	}
+}
+
+@media (min-width: 72em) {
+	site-search dialog {
+		zoom: 2;
+	}
 }
