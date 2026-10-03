@@ -17,6 +17,11 @@
 	display: none !important;
 }
 
+starlight-toc nav {
+	margin-top: 1.25em;
+	zoom: 1.4
+}
+
 @media (max-width: 32em) {
 	site-search dialog {
 		zoom: 0.8;
