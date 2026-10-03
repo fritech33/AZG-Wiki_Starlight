@@ -17,8 +17,16 @@
 	display: none !important;
 }
 
-site-search dialog {
-	zoom: 1.2;
+@media (max-width: 32em) {
+	site-search dialog {
+		zoom: 0.8;
+	}
+}
+
+@media (min-width: 48em) {
+	site-search dialog {
+		zoom: 1.2;
+	}
 }
 
 @media (min-width: 60em) {
