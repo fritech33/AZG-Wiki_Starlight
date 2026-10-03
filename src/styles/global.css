@@ -16,3 +16,7 @@
 .social-icons svg {
 	display: none !important;
 }
+
+site-search dialog {
+    zoom: 2;
+}
