@@ -1,5 +1,6 @@
 ---
 import { Icon } from '@astrojs/starlight/components';
+import { Icon as AstroIcon } from 'astro-icon/components';
 import type { HTMLAttributes } from 'astro/types';
 
 interface Props extends Omit<HTMLAttributes<'a'>, 'title'> {
@@ -11,8 +12,10 @@ interface Props extends Omit<HTMLAttributes<'a'>, 'title'> {
 const { title, description, iconName, ...attributes } = Astro.props;
 ---
 
-<div class="sl-link-card" style="grid-template-columns: 4.2em 1fr auto;">
-	<Icon name={iconName} size="3.2em" class="icon" />
+<div class="sl-link-card" style="grid-template-columns: 4em 1fr auto;">
+	<div style="padding:.3em 0 0 .6em">
+		<AstroIcon name={iconName} size="2.4em" class="icon" />
+	</div>
 	<span class="sl-flex stack">
 		<a {...attributes}>
 			<span class="title" set:html={title} />

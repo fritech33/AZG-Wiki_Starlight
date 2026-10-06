@@ -12,6 +12,9 @@
   "dependencies": {
     "@astrojs/starlight": "^0.42.2",
     "@astrojs/starlight-tailwind": "^5.0.0",
+    "@iconify-json/fa6-brands": "^1.2.6",
+    "@iconify-json/fa6-regular": "^1.2.4",
+    "@iconify-json/fa6-solid": "^1.2.4",
     "@starwind-ui/astro": "^1.2.1",
     "@starwind-ui/react": "^1.2.1",
     "@tabler/icons": "^3.46.0",
@@ -19,6 +22,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.3.3",
     "astro-component-kit": "^0.3.1",
+    "astro-icon": "^1.2.0",
     "astro-toc": "^0.2.0",
     "sharp": "^0.35.3",
     "starlight-github-alerts": "^0.4.0",
@@ -32,5 +36,8 @@
   "allowScripts": {
     "esbuild": true,
     "fsevents@2.3.3": true
+  },
+  "devDependencies": {
+    "@iconify-json/at-icons": "^1.2.4"
   }
 }

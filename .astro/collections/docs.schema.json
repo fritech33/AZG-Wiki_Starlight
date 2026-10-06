@@ -324,6 +324,7 @@
                       "seti:cpp",
                       "seti:clojure",
                       "seti:coldfusion",
+                      "seti:coffee",
                       "seti:config",
                       "seti:crystal",
                       "seti:crystal_embedded",
