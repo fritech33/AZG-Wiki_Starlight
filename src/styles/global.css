@@ -22,6 +22,14 @@ starlight-toc nav {
 	zoom: 1.4
 }
 
+/*starlight-toc nav li:first-child {
+    display: none;
+}*/
+
+starlight-toc nav li a {
+    margin-left: calc(-1 * var(--pad-inline));
+}
+
 @media (max-width: 32em) {
 	site-search dialog {
 		zoom: 0.8;
