@@ -8,7 +8,7 @@ interface Props extends Omit<HTMLAttributes<'a'>, 'title'> {
 	iconName?: string;
 }
 
-const { title, description, imageURL, ...attributes } = Astro.props;
+const { title, description, iconName, ...attributes } = Astro.props;
 ---
 
 <div class="sl-link-card" style="grid-template-columns: 4.2em 1fr auto;">
